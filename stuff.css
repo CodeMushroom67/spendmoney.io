@@ -4,6 +4,8 @@
     color: #e751b5;
     position : relative;
     top : 10px;
+    height:auto;
+    width:auto;
 }
 .inputfield {
     left: 30px;
