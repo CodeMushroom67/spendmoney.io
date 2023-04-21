@@ -1,0 +1,43 @@
+.button {
+    left: 30px;
+    background-color: #ffffff;
+    color: #e751b5;
+    position : relative;
+    top : 10px;
+}
+.inputfield {
+    left: 30px;
+    top: 10px;
+    position : relative;
+    width: 40px;
+}
+.textStuff {
+    left: 10px;
+    top: 40px;
+    position : relative;
+}
+.box
+{
+    width: 200px;
+    height: 200px;
+    background-color: #eeb6cc;
+    display: block;
+
+}
+.box:hover
+{
+    width: 200px;
+    height: 200px;
+    background-color: #eeb6cc;
+    display: block;
+    outline: solid;
+    outline-width: 2px;
+    outline-color: #fffb00;
+
+}
+.container
+{
+    display: grid;
+    grid: repeat(2,250px) / auto-flow 250px;
+}
+
