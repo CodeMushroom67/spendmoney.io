@@ -36,6 +36,7 @@
 }
 .container
 {
+    height: auto;
     width : auto;
     display: grid;
     grid: repeat(2,250px) / auto-flow 250px;
