@@ -33,10 +33,10 @@
     outline: solid;
     outline-width: 2px;
     outline-color: #fffb00;
-
 }
 .container
 {
+    width : auto;
     display: grid;
     grid: repeat(2,250px) / auto-flow 250px;
 }
