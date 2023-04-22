@@ -24,6 +24,7 @@
 }
 .box
 {
+    border: solid;
     width: auto;
     height: auto;
     background-color: #eeb6cc;
