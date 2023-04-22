@@ -4,8 +4,8 @@
     color: #e751b5;
     position : relative;
     top : 10px;
-    height:auto;
-    width:auto;
+    height:5%;
+    width:20%;
 }
 .inputfield {
     left: 30px;
@@ -43,4 +43,5 @@
     grid: repeat(2,1fr) / auto-flow 1fr;
     width : 100vw;
     height : 100vh;
+    gap : 1fr;
 }
