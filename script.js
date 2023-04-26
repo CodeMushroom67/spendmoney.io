@@ -44,3 +44,16 @@ function onHoverExitText(elemtClass,color)
     document.getElementsByClassName(elemtId).style.borderColor = currentColor;
     document.getElementsByClassName(elemtId).style.borderWidth = 0;
 }
+setInterval(function () {
+if(money =! Number(document.getElementById("moneyText").innerHTML))
+{
+    if(money - Number(document.getElementById("moneyText").innerHTML) > 0)
+    {
+        document.getElementById("moneyText").innerHTML = Number(document.getElementById("moneyText").innerHTML) + 1;
+    }else
+    {
+    document.getElementById("moneyText").innerHTML = Number(document.getElementById("moneyText").innerHTML) - 1;
+    }
+    
+}
+}, 3000);
