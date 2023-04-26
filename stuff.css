@@ -1,5 +1,8 @@
 .image
 {
+    border-radius:5%;
+    border-width:3%;
+    border-color:gray;
     position:relative;
     top:5%;
     height: 45%;
