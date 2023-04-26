@@ -2,11 +2,12 @@
 {
     border-radius:5%;
     border-width:3%;
-    border-color:gray;
+    border:solid gray;
     position:relative;
     top:5%;
     height: 45%;
-    width:40%;
+    width:35%;
+    left: 20%;
 }
 .button {
     left: 15%;
