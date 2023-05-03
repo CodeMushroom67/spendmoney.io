@@ -60,5 +60,5 @@
     grid: repeat(2,1fr) / auto-flow 1fr;
     width : 100vw;
     height : 100vh;
-    gap : 1fr;
+    gap : 5px;
 }
